@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Semantic</title>
+    <style media="screen">
+      .forecast{
+        margin: 0;
+        padding: .3rem;
+        backgroud-color: #eee;
+        font: 1rem 'Fira Sans', sans-serif;
+      }
+      .forecast > h1,
+      .day-forecast {
+        margin: .5rem;
+        padding: .3rem;
+        font-size: 1.2rem;
+      }
+      .day-forecast{
+        backgroud: right/contain content=box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+      }
+      .day-forecast > h2,
+      .day-forecast > p {
+        margin: .2rem;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <article class="forecast">
+      <h1>Weather forecast for Seatle</h1>
+      <article class="day-forecast">
+        <h2>03 March 2018</h2>
+        <p>Rain.</p>
+      </article>
+      <article class="day-forecast">
+        <h2>04 March 2018</h2>
+        <p>Periods of rain.</p>
+      </article>
+      <article class="day-forecast">
+        <h2>05 March 2018</h2>
+        <p>Heavy Rain.</p>
+      </article>
+    </article>
+    <article class="film_review">
+  <header>
+    <h2>Jurassic Park</h2>
+  </header>
+  <section class="main_review">
+    <p>Dinos were great!</p>
+  </section>
+  <section class="user_reviews">
+    <article class="user_review">
+      <p>Way too scary for me.</p>
+      <footer>
+        <p>
+          Posted on
+          <time datetime="2015-05-16 19:00">May 16</time>
+          by Lisa.
+        </p>
+      </footer>
+    </article>
+    <article class="user_review">
+      <p>I agree, dinos are my favorite.</p>
+      <footer>
+        <p>
+          Posted on
+          <time datetime="2015-05-17 19:00">May 17</time>
+          by Tom.
+        </p>
+      </footer>
+    </article>
+  </section>
+  <footer>
+    <p>
+      Posted on
+      <time datetime="2015-05-15 19:00">May 15</time>
+      by Staff.
+    </p>
+  </footer>
+</article>
+    <ul>
+      <li><b>굵은</b> vs <strong>중요한</strong></li>
+      <li><i>기울어진</i> vs <em>강조하는</em></li>
+      <li><u>밑줄친</u> vs <ins>새롭게 추가된</ins></li>
+      <li><s>중간선이 있는</s> vs <del>삭제된</del></li>
+    </ul>
+
+    <h2>Semantics in HTML</h2>
+    <h1>This is a top level heading</h1>
+    <span style = "font-size: 32px; margin: 21px 0;">
+      Is this a top level heading?
+    </span>
+
+
+  </body>
+</html>
