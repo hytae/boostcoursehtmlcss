@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Text</title>
+    <style>
+      th, td{border:1px solid;}
+    </style>
   </head>
   <body>
     <p>
@@ -21,7 +24,7 @@
     </div>
     <!-- div는 블록레벨 태그, span은 인라인 레벨의 태그 --!>
 
-      <ul> <!-- ul unordered list --!>
+      <ul> <!-- ul means that unordered list --!>
         <li>콩나물</li>
         <li>파</li>
         <li>국 간장</li>
@@ -32,5 +35,93 @@
         <li>콩나물을 넣고 뚜껑을 덮어 콩나물이 익을 때까지 끓인다.</li>
         <li>뚜껑을 열고 대파, 마늘, 고춧가루를 넣고 끓인다.</li>
       </ol>
+
+      <dl>
+        <dt>리플리증후군</dt>
+        <dd>허구의 세계를 진실이라 믿고 거짓된 말과 행동을 상습적으로 반복하는 반사회적 성격장애를 뜻하는 용어</dd>
+        <dt>피그말리온 효과</dt>
+        <dd>타인의 기대나 관심으로 인하여 능률이 오르거나 결과가 좋아지는 현상</dd>
+        <dt>언더독효과</dt>
+        <dd>사람들이 약자라고 믿는 주체를 응원하게 되는 현상</dd>
+        <!-- dt : 용어를 나타내는 태그 dd : 용어에 대한 정의 또는 설명을 나타내는 태그--!>
+      </dl>
+
+      <table>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+        </tr>
+      </table>
+      <table>
+        <caption> Monthly Savings </caption>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Savings</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>January</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>February</td>
+            <td>$80</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Sum</td>
+            <td>$180</td>
+          </tr>
+        </tfoot>
+      </table>
+      <table>
+        <caption>Specification values</caption>
+        <thead>
+          <tr>
+            <th rowspan ="2">Grade</th>
+            <th rowspan ="2">Point</th>
+            <th rowspan ="2">Strength</th>
+            <th rowspan ="2">Percent</th>
+          </tr>
+          <tr>
+            <th>kg/mm</th>
+            <th>lb/in</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hard</td>
+            <td>0.45</td>
+            <td>56.2</td>
+            <td>80,000</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>Medium</td>
+            <td>0.45</td>
+            <td>49.2</td>
+            <td>70,000</td>
+            <td>25</td>
+          </tr>
+          <tr>
+            <td>Soft</td>
+            <td>0.45</td>
+            <td>42.2</td>
+            <td>60,000</td>
+            <td>30</td>
+          </tr>
+          </tbody>
+      </table>
   </body>
 </html>
